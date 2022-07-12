@@ -20,13 +20,9 @@ export class DetalleComponent implements OnInit {
   @Input() poster:string;
 
   @Output()
-propagar = new EventEmitter<string>();
+  propagar = new EventEmitter<string>();
 
   ngOnInit() {
-  }
-
-  showDialog() {
-      this.display = true;
   }
 
   cancel(){

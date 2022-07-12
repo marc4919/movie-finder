@@ -1,0 +1,15 @@
+<br>
+<div>
+  Introduce nombre de película
+  <br>
+  <p-autoComplete [suggestions]="results.title" [style]="{'width':'50%'}" [inputStyle]="{'width':'100%'}"
+    (completeMethod)="search($event)" [(ngModel)]="texts">
+  </p-autoComplete>
+  <table [ngStyle]="{'visibility':mostrarTabla()}">
+    <tr>
+      <th>Título</th>
+    </tr>
+    <tr *ngFor="let resultado of results.results" (click)="mostrarDetalle(resultado)">{{resultado.title}}</tr>
+  </table>
+  <app-detalle (propagar)=actualizarPopUp() [display]="popUp" [pelicula]="pelicula" [poster]="poster"></app-detalle>
+</div>

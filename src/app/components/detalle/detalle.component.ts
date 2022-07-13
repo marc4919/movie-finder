@@ -26,7 +26,6 @@ export class DetalleComponent implements OnInit {
   }
 
   cancel(){
-    console.log("HI");
     this.propagar.emit('false');
   }
 

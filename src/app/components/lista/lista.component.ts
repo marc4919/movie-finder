@@ -20,7 +20,7 @@ export class ListaComponent implements OnInit {
 
   ngOnInit() {
   }
-  texts: string[] = [];
+  
   popUp : boolean = false;
   poster : string;
   pelicula:any;

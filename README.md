@@ -1,4 +1,6 @@
-# MovieFinder
+# MovieFinder 🎥
+
+Angular application designed to provide comprehensive information about the movies you're searching for. Whether you're a cinephile looking for details on your favorite films or a casual moviegoer in need of recommendations, this application has you covered. It uses themoviedb.org's api.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
